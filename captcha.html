@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 2px solid white;
+            padding: 3px;
+        }
+
+        #hid {
+            display: none;
+        }
+
+        h1,
+        #imgrid,
+        h2,
+        #result {
+            width: fit-content;
+            margin: 0px auto 0px auto;
+        }
+
+        h1 {
+
+            padding: 10px;
+            color: brown;
+            font-weight: 700;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        h2 {
+            font-family: 'Times New Roman', Times, serif;
+            color: peru;
+            border: 1px;
+        }
+
+        * {
+            background-color: bisque;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Prove That You Are Not A Robot</h1>
+    <br />
+    <br />
+    <h2>Pick and choose all the "<span id="obj"></span>" from the image-grid below</h2>
+    <br />
+    <div id="result"></div>
+
+    <br />
+    <br />
+    <table id="imgrid">
+        <tr>
+            <td><img class="Cookies"
+                    src='https://media.istockphoto.com/photos/cookie-on-the-keyboard-picture-id1201896353?k=20&m=1201896353&s=612x612&w=0&h=8BND67LEuZVjuMGUyDDZ4ZiMR_OobEhI19GtEFdzMNM='
+                    width='150' height='150' /></td>
+            <td><img class="Chocolates"
+                    src='https://media.istockphoto.com/photos/chocolate-bar-candy-sweet-cacao-beans-and-powder-on-wooden-picture-id623531176?k=20&m=623531176&s=612x612&w=0&h=qrGpVJc0m3NTpF5AJFAcDXhENbXYWB8nrXnbK6xpiJI='
+                    width='150' height='150' /></td>
+            <td><img class="Cakes"
+                    src='https://media.istockphoto.com/photos/confectioner-decorating-chocolate-cake-closeup-picture-id1187830875?k=20&m=1187830875&s=612x612&w=0&h=LoRXyD8Jw9N-CfkKtXe23uHctZUetcH5zZFMwIzXapU='
+                    width='150' height='150' /></td>
+        </tr>
+        <tr>
+            <td><img class="Chocolates"
+                    src='https://media.istockphoto.com/photos/chocolates-picture-id488182109?k=20&m=488182109&s=612x612&w=0&h=BljjWACLTy7pp3MZaLV6OCwgBfNRkmRD9NxpC1-uRd0='
+                    width='150' height='150' /></td>
+            <td><img class="Cakes"
+                    src='https://media.istockphoto.com/photos/birthday-cake-decorated-with-colorful-sprinkles-and-ten-candles-picture-id1136810581?k=20&m=1136810581&s=612x612&w=0&h=Jj80oUK2CtY9nwYYRfJXB31ydjhOo5igRolQn-lV8M0='
+                    width='150' height='150' /></td>
+            <td><img class="Cookies"
+                    src='https://media.istockphoto.com/photos/butter-toffee-crunch-chocolate-chip-cookies-picture-id1182279813?k=20&m=1182279813&s=612x612&w=0&h=o9tVs5PK_P8yMUeGd2eiL2e008DR2V5EKuUtuhAnTv8='
+                    width='150' height='150' /></td>
+        </tr>
+        <tr>
+            <td><img class="Cakes"
+                    src='https://media.istockphoto.com/photos/chocolate-cake-with-chocolate-fudge-drizzled-icing-and-chocolate-picture-id478348860?k=20&m=478348860&s=612x612&w=0&h=NB6QXVUckdfLzkgpIkuqm1iGDNmEsBo3PsPfgVIXbGM='
+                    width='150' height='150' /></td>
+            <td><img class="Cookies"
+                    src='https://media.istockphoto.com/photos/beautiful-cookies-assorted-closeup-background-horizontal-top-view-picture-id1035053764?k=20&m=1035053764&s=612x612&w=0&h=rkicJ_mQVsnKBSmfceZaQA7VLR7TwoQOMECbgy1jFxA='
+                    width='150' height='150' /></td>
+            <td><img class="Chocolates"
+                    src='https://media.istockphoto.com/photos/chocolate-assortment-background-top-view-of-different-kinds-of-picture-id1276645382?k=20&m=1276645382&s=612x612&w=0&h=OUB9TBe8jZYmpWZcCnHYFkRUmjSvopjCtPXbNdf_CvU='
+                    width='150' height='150' /></td>
+        </tr>
+    </table>
+    </div>
+    <br />
+    <br />
+    <div class="centre"><input type="button" class="drun" value="Submit"
+            style="border: none;border-radius: 3px;padding: 5px;background-color: red;color: white;cursor: pointer;" />
+    </div>
+    <script src="captcha.js" type="text/javascript"></script>
+</body>
+
+</html>
